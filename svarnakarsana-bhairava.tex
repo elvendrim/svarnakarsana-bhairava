@@ -1,7 +1,7 @@
 %!TEX encoding = UTF-8 Unicode
 %!TEX TS-program = XeLaTeX
 %!TEX builder = latexmk
-\documentclass[11pt,oneside,a4paper]{article}
+\documentclass[12pt,oneside,a4paper]{article}
 \usepackage[parfill]{parskip}
   \setlength{\parindent}{0pt}%
   \setlength{\parskip}{6pt plus 2pt minus 4pt}%
@@ -18,20 +18,19 @@
 
 \usepackage{fontspec,xfrac}
   \defaultfontfeatures{Mapping=tex-text}
-  \setmainfont{sourceserifpro}[%
+  \setmainfont{adobedevanagari}[%
     Extension   = .otf,
     UprightFont = *-regular,
     ItalicFont  = *-italic,
-    BoldFont    = *-semibold,
-    BoldItalicFont = *-semibolditalic,
-    Numbers={Lining}
+    BoldFont    = *-bold,
+    BoldItalicFont = *-bolditalic
   ]
 \usepackage{polyglossia}
   \setdefaultlanguage{english}
   \setotherlanguage{sanskrit}
-  \newfontfamily\sanskritfont{Source Serif Pro}
+  \newfontfamily\sanskritfont{Adobe Devanagari}
 
-\usepackage{varwidth,xspace}
+\usepackage{varwidth}
 \newenvironment{shloka}[1]
   {\bigskip\center#1\varwidth{\linewidth}}
   {\endvarwidth\endcenter\bigskip}
@@ -70,9 +69,9 @@
   }
 }
 \title{\textbf{Śrī Svarṇākarṣaṇa Bhairava\\ mantra upāsanā}}
-\author{\textsc{bhairava tantra}}
+\author{\textit{Bhairava Tantra}}
 \date{\relax}
-\hyphenation{svar-ṇā-kar-ṣa-ṇa ma-hā-prā-sā-da bhai-ra-va de-va-tā-yai ma-hā-bha-i-ra-vā-ya}
+\hyphenation{svar-ṇā-kar-ṣa-ṇa ma-hā-prā-sā-da bhai-ra-va de-va-tā-yai ma-hā-bha-i-ra-vā-ya ga-na-pa-ti}
 
 \begin{document}
 \maketitle
@@ -93,15 +92,16 @@ Bhairava that we have discussed in ``Forms of Bhairava" and ``Pervasive
 Bhairava". This Svarṇākarṣaṇa Bhairava form is considered as the Supreme
 combination of Śiva and Śakti from where the Universe originates, sustains and
 dissolves. The \tl{upāsanā} of Bhairava is considered indispensable for all
-\tl{upāsakas} of Bhagavatī. Lord Bhairava is worshiped in various forms:
-
-\begin{itemize}
-  \item As the consort of Mahāvidyā Goddesses (Akṣōbhya Bhairava, Krodhabhairava, etc.)
-  \item As the consort of the Mātṛkā group of deities (Asitāṅga Bhairava, Ruru Bhairava, etc.)
-  \item As the son of Bhagavatī, Vaṭuka, who is indispensable to \tl{saparyā}, as is the Kumārī
-  \item Various forms of Bhairavas who form the retinue of Bhagavatī invoked for protection such as Baḍabānala Bhairava, Ākāśabhairava, Unmatta Bhairava, etc.
-  \item Special forms invoked for specific purposes by \tl{śākta}-s: Svarṇākarṣaṇa Bhairava for protection and prosperity, Sammōhana Bhairava (for enchantment), Svacchanda Bhairava (as Mahāguru in \tl{śrīkula krama} system), etc.
-\end{itemize}
+\tl{upāsakas} of Bhagavatī. Lord Bhairava is worshiped in various forms: as
+the consort of Mahāvidyā Goddesses (Akṣōbhya Bhairava, Krodhabhairava, etc.);
+as the consort of the Mātṛkā group of deities (Asitāṅga Bhairava, Ruru Bhairava,
+etc.); as the son of Bhagavatī, Vaṭuka, who is indispensable to \tl{saparyā},
+as is the Kumārī; various forms of Bhairavas who form the retinue of Bhagavatī
+invoked for protection such as Baḍabānala Bhairava, Ākāśabhairava, Unmatta
+Bhairava, etc; special forms invoked for specific purposes by \tl{śākta}-s:
+Svarṇākarṣaṇa Bhairava for protection and prosperity, Sammōhana Bhairava (for
+enchantment), Svacchanda Bhairava (as Mahāguru in \tl{śrīkula krama} system),
+etc.
 
 Śrī Svarṇākarṣaṇa Bhairava is an \tl{uttarāṃga} mantra to Mahāṣoḍaśī,
 Mahāprāsāda and also Vanadurgā. His association with Śrī Vidyā and Māhātmya
@@ -111,7 +111,7 @@ are described in ``Sundarī Tantra''.
   tripurāyāḥ pure ramye mūle kalpataroḥ śubhe \\
   sthitaḥ simhāsane tatra bhāti kaḥ puruṣaḥ paraḥ \\
   dāsībhūtā mahālakṣmīḥ purato yasya rājate \\
-  tasya me devadevasya mahāmantraṃ vada prabho
+  tasya me devadevasya mahāmantram̐ vada prabho
 \end{shloka}
 
 Parvati questions thus: ``Lord! Who is the resplendent Puruśa seated on
@@ -166,7 +166,7 @@ with mantra, \tl{japa} and \tl{āvaraṇa pūjā}, recitation of \tl{mālā,
 sahasranāma} [6], \tl{aṣṭottara, kavacha, stavarāja} and \tl{hṛdaya}.
 The details of these however have to be received directly from one's Guru.
 
-\textsc{notes}\footnote{Nirvāṇa Sundarī (\url{http://www.kamakotimandali.com/blog/})}:
+\textit{Notes}\footnote{Nirvāṇa Sundarī (\url{http://www.kamakotimandali.com/blog/})}:
 
 [1] Mahālakṣmī is described as serving the Lord in various \tl{dhyāna śloka}-s
 of this Bhairava. The ``Svarṇākarṣaṇa Aṣṭottara'' includes several names such
@@ -247,10 +247,10 @@ of the Śrīvidya Krama Tantra, they are described to be \tl{trimūrtyātmaka}.
 \subsection{Viniyogaḥ}
 
 \begin{shloka}\itshape
-  oṃ asyaśrī svarṇākarṣaṇa bhairava mantrasya \\
+  om̐ asyaśrī svarṇākarṣaṇa bhairava mantrasya \\
   śrī brahmā ṛṣiḥ paṅkti chandaḥ \\
   harihara brahmātmaka svarṇākarṣaṇa bhairavo devatā \\
-  hrīṃ bījaṃ saḥ śaktiḥ oṃ kīlakaṃ \\
+  hrīm̐ bījaṃ saḥ śaktiḥ om̐ kīlakaṃ \\
   mama dāridryanāśārthe svarṇākarṣaṇa bhairava prasāda siddhyarthaṃ \\
   svarṇa rāśi prāptyarthe svarṇākarṣaṇa bhairava mantra jape viniyogaḥ
 \end{shloka}
@@ -261,8 +261,8 @@ specifically for removal of all types of poverty and acquisition of immense
 wealth, as well as to gain peace of mind and contentment in life. The sage
 (\tl{ṛṣiḥ}) is the divine seer Brahmā, the meter (\tl{chandas}) for the mantra
 is \tl{paṅkti} and the deity is the intelligence giver Śrī Harihara Brahmātmaka
-Svarṇākarṣaṇa Bhairava; the seed (\tl{bījaṃ}) is \tl{hrīṃ}, the power or
-\tl{śakti} is \tl{saḥ}. The key (\tl{kīlakaṃ}) to unlock the mantra is oṃ.
+Svarṇākarṣaṇa Bhairava; the seed (\tl{bījaṃ}) is \tl{hrīm̐}, the power or
+\tl{śakti} is \tl{saḥ}. The key (\tl{kīlakaṃ}) to unlock the mantra is om̐.
 
 \subsection{Ṛṣyādi nyāsa}
 
@@ -277,13 +277,13 @@ the top.
 \tl{brahmātmaka svarṇākarṣaṇa bhairava devatāyai namaḥ hṛdi}\\
 Touch the heart area with the right palm.
 
-\tl{hrīṃ bījāya namaḥ guhye}\\
+\tl{hrīm̐ bījāya namaḥ guhye}\\
 Touch the genitalia area with the right ring finger and thumb joined together.
 
 \tl{saḥ śaktaye namaḥ pādayoḥ}\\
 Touch the feet area with the right ring finger and thumb joined together.
 
-\tl{oṃ kīlakāya namaḥ nābhau}\\
+\tl{om̐ kīlakāya namaḥ nābhau}\\
 Touch the navel area with the right ring finger and thumb joined together.
 
 \tl{mama dāridryanāśārthe svarṇākarṣaṇa
@@ -297,16 +297,16 @@ Run both the palms all over the body.
 
 \subsection{Karanyāsaḥ}
 
-\tl{aiṃ hrīṃ śrīṃ āparduddhāraṇāya aṅguṣṭhābhyāṃ namaḥ}\\
+\tl{aim̐ hrīm̐ śrīm̐ āparduddhāraṇāya aṅguṣṭhābhyāṃ namaḥ}\\
 Use both the index fingers and run them on both the thumbs.
 
-\tl{hrāṃ hrīṃ hrūṃ ajāmilabaddhāya tarjanībhyāṃ namaḥ}\\
+\tl{hrām̐ hrīm̐ hrūm̐ ajāmilabaddhāya tarjanībhyāṃ namaḥ}\\
 Use both the thumbs and run them on both the index fingers.
 
-\tl{oṃ lokeśvarāya madhyamābhyāṃ namaḥ}\\
+\tl{om̐ lokeśvarāya madhyamābhyāṃ namaḥ}\\
 Use both the thumbs on the middle fingers.
 
-\tl{oṃ svarṇākarṣaṇa bhairavāya anāmikābhyāṃ namaḥ}\\
+\tl{om̐ svarṇākarṣaṇa bhairavāya anāmikābhyāṃ namaḥ}\\
 Use both the thumbs on the ring fingers.
 
 \tl{mama dāridrya vidveṣaṇāya kaniṣṭhikābhyāṃ namaḥ}\\
@@ -322,19 +322,19 @@ back sides of the left palm and repeat the same for the other palm.
 
 \subsection{Ṣaḍaṅganyāsaḥ}
 
-\tl{aiṃ hrīṃ śrīṃ āparduddhāraṇāya hṛdayāya namaḥ}\\
+\tl{aim̐ hrīm̐ śrīm̐ āparduddhāraṇāya hṛdayāya namaḥ}\\
 Open index, middle and ring fingers of the right hand and place them on
 the heart area.
 
-\tl{hrāṃ hrīṃ hrūṃ ajāmilabaddhāya śirase svāhā}\\
+\tl{hrām̐ hrīm̐ hrūm̐ ajāmilabaddhāya śirase svāhā}\\
 Open middle and ring fingers of the right hand and touch the top of
 the forehead.
 
-\tl{oṃ lokeśvarāya śikhāyai vaṣaṭ}\\
+\tl{om̐ lokeśvarāya śikhāyai vaṣaṭ}\\
 Open the right thumb and touch the back of the head. This is the point where
 the tuft of hair is kept.
 
-\tl{oṃ svarṇākarṣaṇa bhairavāya kavacāya huṃ}\\
+\tl{om̐ svarṇākarṣaṇa bhairavāya kavacāya hum̐}\\
 Cross both the hands and run the fully opened palms from shoulders to finger
 tips.
 
@@ -395,27 +395,27 @@ grantor of all types of abundance and prosperity!
 
 \subsection{Pañcapūjā}
 
-\tl{laṃ pṛthivyātmikāyai gandhaṁ samarpayāmi}\\
+\tl{lam̐ pṛthivyātmikāyai gandhaṁ samarpayāmi}\\
 Hold the lower tip of the bottom phalange of the little fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{haṃ ākāśātmikāyai puṣpaiḥ pūjayāmi}\\
+\tl{ham̐ ākāśātmikāyai puṣpaiḥ pūjayāmi}\\
 Hold the lower tip of the bottom phalange of the thumbs of both hands with
 the upper tip/nails of the index fingers, with the back of the hand facing us.
 
-\tl{yaṃ vāyvātmikāyai dhūpamāghrāpayāmi}\\
+\tl{yam̐ vāyvātmikāyai dhūpamāghrāpayāmi}\\
 Hold the lower tip of the bottom phalange of the index fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{raṃ agnyātmikāyai dīpaṃ darśayāmi}\\
+\tl{ram̐ agnyātmikāyai dīpaṃ darśayāmi}\\
 Hold the lower tip of the bottom phalange of the middle fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{vaṃ amṛtātmikāyai amṛtaṃ mahānaivedyaṃ nivedayāmi}\\
+\tl{vam̐ amṛtātmikāyai amṛtaṃ mahānaivedyaṃ nivedayāmi}\\
 Hold the lower tip of the bottom phalange of the ring fingers of both hands with
 the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{saṃ sarvātmikāyai sarvopacāra pūjām samarpayāmi}\\
+\tl{sam̐ sarvātmikāyai sarvopacāra pūjām samarpayāmi}\\
 Hold the fingers of each palm in a folded manner with the tips of each fingers
 of both hands touching each other and the thumbs facing the heart, in
 a ``namaste'' position.
@@ -426,7 +426,7 @@ Recite the below mantra once, to pray to the \tl{japa māla} and invoke
 the blessings for a fruitful \tl{japa}:
 
 \begin{shloka}\itshape
-  oṃ māṃ māle mahāmāye sarvamantra svarūpiṇi\\
+  om̐ māṃ māle mahāmāye sarvamantra svarūpiṇi\\
   caturvarga stvayinyasta stasmānye siddhidā bhava
 \end{shloka}
 
@@ -436,7 +436,7 @@ Recite the following guru mantra once, to seek the blessings of all gurus and
 the Guru:
 
 \begin{shloka}\itshape
-  oṃ hrīṃ siddhaguro prasīda hrīṃ oṃ
+  om̐ hrīm̐ siddhaguro prasīda hrīm̐ om̐
 \end{shloka}
 
 \subsection{Ṣaṭpañcāśatyakṣara mantraḥ}
@@ -449,32 +449,32 @@ Following is the 56-lettered Śrī Svarṇākarṣaṇa Bhairava mantra, that sh
 recited at least 108 times (1 \tl{mālā}):
 
 \begin{shloka}\itshape\bfseries
-  oṃ aiṃ hrīṃ śrīṃ āpaduddhāraṇāya hrāṃ hrīṃ hrūṃ ajāmala-baddhāya lokeśvarāya
+  om̐ aim̐ hrīm̐ śrīm̐ āpaduddhāraṇāya hrām̐ hrīm̐ hrūm̐ ajāmala-baddhāya lokeśvarāya
   svarṇākarṣaṇa bhairavāya mama dāridrya vidveṣaṇāya mahābhairavāya namaḥ
-  śrīṃ hrīṃ aiṃ
+  śrīm̐ hrīm̐ aim̐
 \end{shloka}
 
-The \tl{bīja} mantra \tl{oṃ} represents Śabda Brahman and is also called
+The \tl{bīja} mantra \tl{om̐} represents Śabda Brahman and is also called
 the \tl{praṇava} mantra or the primordial sound, the manifested super-
 consciousness in the form of sound and all syllables. All other sounds and waves
 are said to have emanated from this mantra. The \tl{vāgbhāva bīja} mantra
-\tl{aiṃ}, represents all knowledge, spiritual and material. The \tl{māyā bīja}
-mantra \tl{hrīṃ} represents manifestation of everything as the power of Creation,
+\tl{aim̐}, represents all knowledge, spiritual and material. The \tl{māyā bīja}
+mantra \tl{hrīm̐} represents manifestation of everything as the power of Creation,
 sustenance as the power of Preservation and transformation as the power of
 Destruction. It is also related to concentration, focus, energy, drive,
 self-esteem, high power and is the main \tl{śakti} mantra. The Lakṣmī \tl{bīja}
-mantra \tl{śrīṃ}, represents abundance, wealth, well-being and prosperity,
+mantra \tl{śrīm̐}, represents abundance, wealth, well-being and prosperity,
 as well as fructification of all efforts.
 
 The word ‘\tl{āpaduddhāraṇāya}’ signifies — the one who rescues us from all
 dangers and miserable conditions.
 
-The \tl{bīja} mantra \tl{hrāṃ} pulls us away from karmic bonds and infuses
-spirituality into our mind and intellect. The \tl{hrīṃ} \tl{bīja} mantra
+The \tl{bīja} mantra \tl{hrām̐} pulls us away from karmic bonds and infuses
+spirituality into our mind and intellect. The \tl{hrīm̐} \tl{bīja} mantra
 represents the power of Destruction and applied to the individual self, it is
 the destruction of our inner karmic bonds represented by \tl{antaḥkaraṇa} (mind,
 ego and the intellect) that bind the consciousness to the physical, astral and
-causal bodies. The form shifting \tl{kinnara bīja} mantra \tl{hrūṃ} brings
+causal bodies. The form shifting \tl{kinnara bīja} mantra \tl{hrūm̐} brings
 complete transformation in our spiritual outlook and leads us towards
 self-realization. In this context Lord Bhairava is aided by the Divine Mother
 Bhairavi, who wields the power of Destruction and transformation and is
@@ -497,7 +497,7 @@ represent Lord Śiva Himself as the chief Mahābhairava. The \tl{namaḥ} \tl{b�
 mantra is for offering salutations to the deity and indicating our complete
 surrender and request to the deity to take charge of our destiny.
 
-The \tl{bīja} mantras \tl{śrīṃ}, \tl{hrīṃ} and \tl{aiṃ} are for encasing
+The \tl{bīja} mantras \tl{śrīm̐}, \tl{hrīm̐} and \tl{aim̐} are for encasing
 the mantra for added protection and easier fruition. This process of reversing
 the mantras at the end occurring earlier in the mantra, is called
 \tl{sampuṭīkaraṇa}.
@@ -513,7 +513,7 @@ Recite the Svarṇākarṣaṇa Bhairava \tl{gāyatrī} mantra 10 times or \sfra
 of main mantra \tl{japa}:
 
 \begin{shloka}\itshape
-  oṃ svarṇabhairavāya vidmahe\\
+  om̐ svarṇabhairavāya vidmahe\\
   svarṇākarṣaṇāya dhīmahi\\
   tanno bhairavaḥ pracodayāt
 \end{shloka}
@@ -523,19 +523,19 @@ types of uninhibited abundance, kindle our intellect and illumine it!''
 
 \subsection{Ṣaḍaṅganyāsaḥ}
 
-\tl{aiṃ hrīṃ śrīṃ āparduddhāraṇāya hṛdayāya namaḥ}\\
+\tl{aim̐ hrīm̐ śrīm̐ āparduddhāraṇāya hṛdayāya namaḥ}\\
 Open index, middle and ring fingers of the right hand and place them on
 the heart area.
 
-\tl{hrāṃ hrīṃ hrūṃ ajāmilabaddhāya śirase svāhā}\\
+\tl{hrām̐ hrīm̐ hrūm̐ ajāmilabaddhāya śirase svāhā}\\
 Open middle and ring fingers of the right hand and touch the top of
 the forehead.
 
-\tl{oṃ lokeśvarāya śikhāyai vaṣaṭ}\\
+\tl{om̐ lokeśvarāya śikhāyai vaṣaṭ}\\
 Open the right thumb and touch the back of the head. This is the point where
 the tuft of hair is kept.
 
-\tl{oṃ svarṇākarṣaṇa bhairavāya kavacāya huṃ}\\
+\tl{om̐ svarṇākarṣaṇa bhairavāya kavacāya hum̐}\\
 Cross both the hands and run the fully opened palms from shoulders to finger
 tips.
 
@@ -574,27 +574,27 @@ ability to recite the hymn.
 
 \subsection{Pañcapūjā}
 
-\tl{laṃ pṛthivyātmikāyai gandhaṁ samarpayāmi}\\
+\tl{lam̐ pṛthivyātmikāyai gandhaṃ samarpayāmi}\\
 Hold the lower tip of the bottom phalange of the little fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{haṃ ākāśātmikāyai puṣpaiḥ pūjayāmi}\\
+\tl{ham̐ ākāśātmikāyai puṣpaiḥ pūjayāmi}\\
 Hold the lower tip of the bottom phalange of the thumbs of both hands with
 the upper tip/nails of the index fingers, with the back of the hand facing us.
 
-\tl{yaṃ vāyvātmikāyai dhūpamāghrāpayāmi}\\
+\tl{yam̐ vāyvātmikāyai dhūpamāghrāpayāmi}\\
 Hold the lower tip of the bottom phalange of the index fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{raṃ agnyātmikāyai dīpaṃ darśayāmi}\\
+\tl{ram̐ agnyātmikāyai dīpaṃ darśayāmi}\\
 Hold the lower tip of the bottom phalange of the middle fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{vaṃ amṛtātmikāyai amṛtaṃ mahānaivedyaṃ nivedayāmi}\\
+\tl{vam̐ amṛtātmikāyai amṛtaṃ mahānaivedyaṃ nivedayāmi}\\
 Hold the lower tip of the bottom phalange of the ring fingers of both hands with
 the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{saṃ sarvātmikāyai sarvopacāra pūjām samarpayāmi}\\
+\tl{sam̐ sarvātmikāyai sarvopacāra pūjām samarpayāmi}\\
 Hold the fingers of each palm in a folded manner with the tips of each fingers
 of both hands touching each other and the thumbs facing the heart, in
 a ``namaste'' position.
@@ -613,15 +613,15 @@ offer the water to the earth:
 
 Recite the below \tl{śloka} and mantra, followed by placing the \tl{māla} upon
 the top of the head and then place it back in the \tl{māla} bag and conceal it.
-It should \textsc{\textbf{not}} be worn!
+It should \textbf{not} be worn!
 
 \begin{shloka}\itshape
-  oṃ tvaṃ māle sarvadevānāṃ prītidā śubhadā bhava\\
-  śubhaṃ kuruṣya me bhadre yaśo vīryaṃ ca dehime
+  om̐ tvaṃ māle sarvadevānāṃ prītidā śubhadā bhava\\
+  śubhaṃ kuruṣya me bhadre yaśo vīryam̐ ca dehime
 \end{shloka}
 
 \begin{shloka}\itshape
-  oṃ hrīṃ siddhyai namaḥ
+  om̐ hrīm̐ siddhyai namaḥ
 \end{shloka}
 
 \subsection{Puraścaraṇa}
@@ -635,10 +635,10 @@ It should \textsc{\textbf{not}} be worn!
 \subsection{Viniyogaḥ}
 
 \begin{shloka}\itshape
-  oṃ asyaśrī svarṇākarṣaṇa bhairava mantrasya\\
+  om̐ asyaśrī svarṇākarṣaṇa bhairava mantrasya\\
   śrī brahmā ṛṣiḥ anuṣṭup chandaḥ\\
   śrī svarṇākarṣaṇa bhairava devatā\\
-  hrīṃ bījaṃ klīṃ śaktiḥ saḥ kīlakaṃ\\
+  hrīm̐ bījaṃ klīm̐ śaktiḥ saḥ kīlakaṃ\\
   mama sarva-kāma-siddhayarthe\\
   svarṇākarṣaṇa bhairava mantra jape viniyogaḥ
 \end{shloka}
@@ -650,8 +650,8 @@ to gain peace of mind and contentment in life. With His blessings, one gains
 complete happiness, abundance in wealth, etc. The sage (\tl{ṛṣiḥ}) is the divine
 seer Brahmā, the meter (\tl{chandas}) for the mantra is \tl{anuṣṭup} and
 the deity is the ultimate and unlimited wealth and prosperity giver Śrī
-Svarṇākarṣaṇa Bhairava, the seed (\tl{bījaṃ}) is \tl{hrīṃ}, the power or
-\tl{śakti} is \tl{klīṃ}. The key (\tl{kīlakaṃ}) to unlock the mantra
+Svarṇākarṣaṇa Bhairava, the seed (\tl{bījaṃ}) is \tl{hrīm̐}, the power or
+\tl{śakti} is \tl{klīm̐}. The key (\tl{kīlakaṃ}) to unlock the mantra
 is \tl{saḥ}.
 
 \subsection{Ṛṣyādi nyāsa}
@@ -667,10 +667,10 @@ at the top.
 \tl{śrī svarṇākarṣaṇa bhairava devatāyai namaḥ hṛdi}\\
 Touch the heart with the right palm.
 
-\tl{hrīṃ bījāya namaḥ guhye}\\
+\tl{hrīm̐ bījāya namaḥ guhye}\\
 Touch the genitalia with the right ring finger and thumb joined together.
 
-\tl{klīṃ śaktaye namaḥ pādayoḥ}\\
+\tl{klīm̐ śaktaye namaḥ pādayoḥ}\\
 Touch the feet with the right ring finger and thumb joined together.
 
 \tl{saḥ kīlakāya namaḥ nābhau}\\
@@ -686,19 +686,19 @@ Run both the palms all over the body.
 
 \subsection{Karanyāsaḥ}
 
-\tl{hrāṃ aṅguṣṭhābhyāṃ namaḥ}\\
+\tl{hrām̐ aṅguṣṭhābhyāṃ namaḥ}\\
 Use both the index fingers and run them on both the thumbs.
 
-\tl{hrīṃ tarjanībhyāṃ namaḥ}\\
+\tl{hrīm̐ tarjanībhyāṃ namaḥ}\\
 Use both the thumbs and run them on both the index fingers.
 
-\tl{hrūṃ madhyamābhyāṃ namaḥ}\\
+\tl{hrūm̐ madhyamābhyāṃ namaḥ}\\
 Use both the thumbs on the middle fingers.
 
-\tl{hraiṃ anāmikābhyāṃ namaḥ}\\
+\tl{hraim̐ anāmikābhyāṃ namaḥ}\\
 Use both the thumbs on the ring fingers.
 
-\tl{hrauṃ kaniṣṭhikābhyāṃ namaḥ}\\
+\tl{hraum̐ kaniṣṭhikābhyāṃ namaḥ}\\
 Use both the thumbs on the little fingers.
 
 \tl{hraḥ karatalakarapṛṣṭhābhyāṃ namaḥ}\\
@@ -711,22 +711,22 @@ back sides of the left palm and repeat the same for the other palm.
 
 \subsection{Ṣaḍaṅganyāsaḥ}
 
-\tl{hrāṃ hṛdayāya namaḥ}\\
+\tl{hrām̐ hṛdayāya namaḥ}\\
 Open index, middle and ring fingers of the right hand and place them on
 the heart.
 
-\tl{hrīṃ śirase svāhā}\\
+\tl{hrīm̐ śirase svāhā}\\
 Open middle and ring fingers of the right hand and touch the top of the forehead.
 
-\tl{hrūṃ śikhāyai vaṣaṭ}\\
+\tl{hrūm̐ śikhāyai vaṣaṭ}\\
 Open the right thumb and touch the back of the head. This is the point where
 the tuft of hair is kept.
 
-\tl{hraiṃ kavacāya huṃ}\\
+\tl{hraim̐ kavacāya hum̐}\\
 Cross both the hands and run the fully opened palms from shoulders to
 finger tips.
 
-\tl{hrauṃ netratrayāya vauṣaṭ}\\
+\tl{hraum̐ netratrayāya vauṣaṭ}\\
 Touch the eyes with the right index and ring fingers, with the middle finger
 touching the \tl{ājña cakra}.
 
@@ -783,27 +783,27 @@ grantor of all types of abundance and prosperity!
 
 \subsection{Pañcapūjā}
 
-\tl{laṃ pṛthivyātmikāyai gandhaṁ samarpayāmi}\\
+\tl{lam̐ pṛthivyātmikāyai gandhaṁ samarpayāmi}\\
 Hold the lower tip of the bottom phalange of the little fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{haṃ ākāśātmikāyai puṣpaiḥ pūjayāmi}\\
+\tl{ham̐ ākāśātmikāyai puṣpaiḥ pūjayāmi}\\
 Hold the lower tip of the bottom phalange of the thumbs of both hands with
 the upper tip/nails of the index fingers, with the back of the hand facing us.
 
-\tl{yaṃ vāyvātmikāyai dhūpamāghrāpayāmi}\\
+\tl{yam̐ vāyvātmikāyai dhūpamāghrāpayāmi}\\
 Hold the lower tip of the bottom phalange of the index fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{raṃ agnyātmikāyai dīpaṁ darśayāmi}\\
+\tl{ram̐ agnyātmikāyai dīpaṁ darśayāmi}\\
 Hold the lower tip of the bottom phalange of the middle fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{vaṃ amṛtātmikāyai amṛtaṁ mahānaivedyaṁ nivedayāmi}\\
+\tl{vam̐ amṛtātmikāyai amṛtaṁ mahānaivedyaṁ nivedayāmi}\\
 Hold the lower tip of the bottom phalange of the ring fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{saṃ sarvātmikāyai sarvopacāra pūjām samarpayāmi}\\
+\tl{sam̐ sarvātmikāyai sarvopacāra pūjām samarpayāmi}\\
 Hold the fingers of each palm in a folded manner with the tips of each fingers
 of both hands touching each other and the thumbs facing the heart in
 a ``namaste'' position.
@@ -814,7 +814,7 @@ Recite the below mantra once to pray to the \tl{japa māla} and invoke
 the blessings for a fruitful \tl{japa}:
 
 \begin{shloka}\itshape
-  oṃ māṃ māle mahāmāye sarvamantra svarūpiṇi\\
+  om̐ māṃ māle mahāmāye sarvamantra svarūpiṇi\\
   caturvarga stvayinyasta stasmānye siddhidā bhava
 \end{shloka}
 
@@ -824,7 +824,7 @@ Recite the following \tl{guru} mantra once, to seek the blessings of all
 \tl{guru}-s and the Guru.
 
 \begin{shloka}\itshape
-  oṃ hrīṃ siddhaguro prasīda hrīṃ oṃ
+  om̐ hrīm̐ siddhaguro prasīda hrīm̐ om̐
 \end{shloka}
 
 \subsection{Aṣṭaṭpañcāśatyakṣara mantraḥ}
@@ -837,9 +837,9 @@ Following is the 58-lettered Śrī Svarṇākarṣaṇa Bhairava mantra, that sh
 recited at least 108 times (1 \tl{mālā}).
 
 \begin{shloka}\itshape\bfseries
-  oṃ aiṃ hrīṃ śrīṃ aiṃ śrīṃ āpaduddhāraṇāya hrāṃ hrīṃ hrūṃ ajāmala-baddhāya
+  om̐ aim̐ hrīm̐ śrīm̐ aim̐ śrīm̐ āpaduddhāraṇāya hrām̐ hrīm̐ hrūm̐ ajāmala-baddhāya
   lokeśvarāya svarṇākarṣaṇa bhairavāya mama dāridrya vidveṣaṇāya
-  mahābhairavāya namaḥ śrīṃ hrīṃ aiṃ
+  mahābhairavāya namaḥ śrīm̐ hrīm̐ aim̐
 \end{shloka}
 
 \subsection{Gāyatrī mantra}
@@ -847,7 +847,7 @@ recited at least 108 times (1 \tl{mālā}).
 Recite 10 times or \sfrac{1}{10} of main mantra \tl{japa}:
 
 \begin{shloka}\itshape
-  oṃ svarṇabhairavāya vidmahe\\
+  om̐ svarṇabhairavāya vidmahe\\
   svarṇākarṣaṇāya dhīmahi\\
   tanno bhairavaḥ pracodayāt
 \end{shloka}
@@ -857,22 +857,22 @@ types of uninhibited abundance, kindle our intellect and illumine it!''
 
 \subsection{Ṣaḍaṅganyāsaḥ}
 
-\tl{hrāṃ hṛdayāya namaḥ}\\
+\tl{hrām̐ hṛdayāya namaḥ}\\
 Open index, middle and ring fingers of the right hand and place them on
 the heart.
 
-\tl{hrīṃ śirase svāhā}\\
+\tl{hrīm̐ śirase svāhā}\\
 Open middle and ring fingers of the right hand and touch the top of the forehead.
 
-\tl{hrūṃ śikhāyai vaṣaṭ}\\
+\tl{hrūm̐ śikhāyai vaṣaṭ}\\
 Open the right thumb and touch the back of the head. This is the point where
 the tuft of hair is kept.
 
-\tl{hraiṃ kavacāya huṃ}\\
+\tl{hraim̐ kavacāya hum̐}\\
 Cross both the hands and run the fully opened palms from shoulders to
 finger tips.
 
-\tl{hrauṃ netratrayāya vauṣaṭ}\\
+\tl{hraum̐ netratrayāya vauṣaṭ}\\
 Touch the eyes with the right index and ring fingers, with the middle finger
 touching the \tl{ājña cakra}.
 
@@ -907,27 +907,27 @@ devyāyutaṃ taptasvarṇavarṇa svarṇākṛtiṃ bhairavamāśrayāmi (3)
 
 \subsection{Pañcapūjā}
 
-\tl{laṃ pṛthivyātmikāyai gandhaṁ samarpayāmi}\\
+\tl{lam̐ pṛthivyātmikāyai gandhaṁ samarpayāmi}\\
 Hold the lower tip of the bottom phalange of the little fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{haṃ ākāśātmikāyai puṣpaiḥ pūjayāmi}\\
+\tl{ham̐ ākāśātmikāyai puṣpaiḥ pūjayāmi}\\
 Hold the lower tip of the bottom phalange of the thumbs of both hands with
 the upper tip/nails of the index fingers, with the back of the hand facing us.
 
-\tl{yaṃ vāyvātmikāyai dhūpamāghrāpayāmi}\\
+\tl{yam̐ vāyvātmikāyai dhūpamāghrāpayāmi}\\
 Hold the lower tip of the bottom phalange of the index fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{raṃ agnyātmikāyai dīpaṁ darśayāmi}\\
+\tl{ram̐ agnyātmikāyai dīpaṁ darśayāmi}\\
 Hold the lower tip of the bottom phalange of the middle fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{vaṃ amṛtātmikāyai amṛtaṁ mahānaivedyaṁ nivedayāmi}\\
+\tl{vam̐ amṛtātmikāyai amṛtaṁ mahānaivedyaṁ nivedayāmi}\\
 Hold the lower tip of the bottom phalange of the ring fingers of both hands
 with the upper tip of the thumbs, with the back of the hand facing us.
 
-\tl{saṃ sarvātmikāyai sarvopacāra pūjām samarpayāmi}\\
+\tl{sam̐ sarvātmikāyai sarvopacāra pūjām samarpayāmi}\\
 Hold the fingers of each palm in a folded manner with the tips of each fingers
 of both hands touching each other and the thumbs facing the heart in
 a ``namaste'' position.
@@ -938,7 +938,7 @@ Take water in \tl{uttaraṇi} (spoon) and by reciting the following \tl{śloka},
 offer the water to the earth:
 
 \begin{shloka}\itshape
-  guhyātiguhyagoptrā tvaṁ gṛhāṇāsmat-kṛtaṁ japam\\
+  guhyātiguhyagoptrā tvaṁ gṛhāṇāsmat-kṛtaṃ japam\\
   siddhirbhavatu me deva tvatprasādānmayi sthirā
 \end{shloka}
 
@@ -946,15 +946,15 @@ offer the water to the earth:
 
 Recite the below \tl{śloka} and mantra, followed by placing the \tl{māla} upon
 the top of the head and then place it back in the \tl{māla} bag and conceal it.
-It should \textsc{\textbf{not}} be worn!
+It should \textbf{not} be worn!
 
 \begin{shloka}\itshape
-  oṃ tvaṃ māle sarvadevānāṃ prītidā śubhadā bhava\\
+  om̐ tvaṃ māle sarvadevānāṃ prītidā śubhadā bhava\\
   śubhaṃ kuruṣya me bhadre yaśo vīryaṃ ca dehime
 \end{shloka}
 
 \begin{shloka}\itshape
-  oṃ hrīṃ siddhyai namaḥ
+  om̐ hrīm̐ siddhyai namaḥ
 \end{shloka}
 
 \subsection{Puraścaraṇa}
@@ -968,7 +968,7 @@ It should \textsc{\textbf{not}} be worn!
 \begin{shloka}\itshape
   śrī mārkaṇḍeya uvāca\\
   bhagavan pramathādhīśa śiva-tulya-parākrama\\
-  pūrvam-ukta-stvayā mantraṃ bhairavasya mahātmanaḥ (1)
+  pūrvam-ukta-stvayā mantram̐ bhairavasya mahātmanaḥ (1)
 \end{shloka}
 
 The divine seer Śrī Mārkaṇḍeya spoke thus: Salutations to the great lord
@@ -980,7 +980,7 @@ us and liberate us.
 
 \begin{shloka}\itshape
   idānīṃ śrotum-icchāmi tasya stotram-anuttamaṃ\\
-  tat kenoktaṃ purā stotraṃ paṭhanāt-tasya kiṃ phalam (2)
+  tat kenoktaṃ purā stotram̐ paṭhanāt-tasya kiṃ phalam (2)
 \end{shloka}
 
 What is that \tl{stotra} that is claimed to be all powerful, fruitful for
@@ -1085,10 +1085,10 @@ and desires, the fulfiller of all tasks!
 \subsection{Viniyogaḥ}
 
 \begin{shloka}\itshape
-  oṃ asya śrī-svarṇākarṣaṇa-bhairava-stotrasya\\
+  om̐ asya śrī-svarṇākarṣaṇa-bhairava-stotrasya\\
   brahmā ṛṣiḥ anuṣṭup chandaḥ\\
   śrī-svarṇākarṣaṇa-bhairava-devatā\\
-  hrīṃ bījaṃ klīṃ śakti saḥ kīlakam\\
+  hrīm̐ bījaṃ klīm̐ śakti saḥ kīlakaṃ\\
   mama-sarva-kāma-siddhayarthe pāṭhe viniyogaḥ (11)
 \end{shloka}
 
@@ -1097,8 +1097,8 @@ This mantra \tl{japa} is to invoke Śrī Svarṇākarṣaṇa Bhairava and perfo
 all types of wish fulfillment and accomplishment of all tasks. The sage
 (\tl{ṛṣiḥ}) is the divine seer and Creator Brahma, the meter (\tl{chandas}) for
 the mantra is Anuṣṭup and the deity is the ultimate and unlimited wealth giver —
-Śrī Svarṇākarṣaṇa Bhairava, the seed (\tl{bījaṃ}) is \tl{hrīṃ}, the power or
-\tl{śakti} is \tl{klīṃ}. The key (\tl{kīlakaṃ}) to unlock the mantra is \tl{saḥ}.
+Śrī Svarṇākarṣaṇa Bhairava, the seed (\tl{bījaṃ}) is \tl{hrīm̐}, the power or
+\tl{śakti} is \tl{klīm̐}. The key (\tl{kīlakaṃ}) to unlock the mantra is \tl{saḥ}.
 
 \subsection{Ṛṣyādi nyāsa}
 
@@ -1113,10 +1113,10 @@ the top.
 \tl{śrī svarṇākarṣaṇa bhairava devatāyai namaḥ hṛdi}\\
 Touch the heart area with the right palm.
 
-\tl{hrīṃ bījāya namaḥ guhye}\\
+\tl{hrīm̐ bījāya namaḥ guhye}\\
 Touch the genitalia area with the right ring finger and thumb joined together.
 
-\tl{klīṃ śaktaye namaḥ pādayoḥ}\\
+\tl{klīm̐ śaktaye namaḥ pādayoḥ}\\
 Touch the feet with the right ring finger and thumb joined together.
 
 \tl{saḥ kīlakāya namaḥ nābhau}\\
@@ -1131,19 +1131,19 @@ Run both the palms all over the body.
 
 \subsection{Karanyāsaḥ}
 
-\tl{hrāṃ aṅguṣṭhābhyāṃ namaḥ}\\
+\tl{hrām̐ aṅguṣṭhābhyāṃ namaḥ}\\
 Use both the index fingers and run them on both the thumbs.
 
-\tl{hrīṃ tarjanībhyāṃ namaḥ}\\
+\tl{hrīm̐ tarjanībhyāṃ namaḥ}\\
 Use both the thumbs and run them on both the index fingers.
 
-\tl{hrūṃ madhyamābhyāṃ namaḥ}\\
+\tl{hrūm̐ madhyamābhyāṃ namaḥ}\\
 Use both the thumbs on the middle fingers.
 
-\tl{hraiṃ anāmikābhyāṃ namaḥ}\\
+\tl{hraim̐ anāmikābhyāṃ namaḥ}\\
 Use both the thumbs on the ring fingers.
 
-\tl{hrauṃ kaniṣṭhikābhyāṃ namaḥ}\\
+\tl{hraum̐ kaniṣṭhikābhyāṃ namaḥ}\\
 Use both the thumbs on the little fingers.
 
 \tl{hraḥ karatalakarapṛṣṭhābhyāṃ namaḥ}\\
@@ -1156,23 +1156,23 @@ back sides of the left palm and repeat the same for the other palm.
 
 \subsection{Ṣaḍaṅganyāsaḥ}
 
-\tl{hrāṃ hṛdayāya namaḥ}\\
+\tl{hrām̐ hṛdayāya namaḥ}\\
 Open index, middle and ring fingers of the right hand and place them on
 the heart \tl{cakra}.
 
-\tl{hrīṃ śirase svāhā}\\
+\tl{hrīm̐ śirase svāhā}\\
 Open middle and ring fingers of the right hand and touch the top of
 the forehead.
 
-\tl{hrūṃ śikhāyai vaṣaṭ}\\
+\tl{hrūm̐ śikhāyai vaṣaṭ}\\
 Open the right thumb and touch the back of the head. This is the point where
 the tuft of hair is kept.
 
-\tl{hraiṃ kavacāya huṃ}\\
+\tl{hraim̐ kavacāya hum̐}\\
 Cross both the hands and run the fully opened palms from shoulders to
 finger tips.
 
-\tl{hrauṃ netratrayāya vauṣaṭ}\\
+\tl{hraum̐ netratrayāya vauṣaṭ}\\
 Touch the eyes with the right index and ring fingers, with the middle finger
 touching the \tl{ājña cakra}.
 
@@ -1241,39 +1241,39 @@ of abundance and prosperity!
 \subsection{Mantraḥ}
 
 \begin{shloka}\itshape\bfseries
-  oṃ aiṃ hrīṃ śrīṃ aiṃ śrīṃ āpaduddhāraṇāya hrāṃ hrīṃ hrūṃ ajāmala-baddhāya
+  om̐ aim̐ hrīm̐ śrīm̐ aim̐ śrīm̐ āpaduddhāraṇāya hrām̐ hrīm̐ hrūm̐ ajāmala-baddhāya
   lokeśvarāya svarṇākarṣaṇa bhairavāya mama dāridrya vidveṣaṇāya mahābhairavāya
-  namaḥ śrīṃ hrīṃ aiṃ (16)
+  namaḥ śrīm̐ hrīm̐ aim̐ (16)
 \end{shloka}
 
-The \tl{bīja} mantra \tl{oṃ} represents Śabda Brahman and is also called
+The \tl{bīja} mantra \tl{om̐} represents Śabda Brahman and is also called
 the \tl{praṇava} mantra or the primordial sound, the manifested
 super-consciousness in the form of sound and all syllables. All other sounds
 and waves are said to have emanated from this mantra. The \tl{vāgbhāva}
-\tl{bīja} mantra \tl{aiṃ} represents all knowledge, spiritual and material.
-The \tl{māyā} \tl{bīja} mantra \tl{hrīṃ} represents manifestation of everything
+\tl{bīja} mantra \tl{aim̐} represents all knowledge, spiritual and material.
+The \tl{māyā} \tl{bīja} mantra \tl{hrīm̐} represents manifestation of everything
 as the power of Creation, sustenance as the power of Preservation and
 transformation as the power of Destruction. It is also related to concentration,
 focus, energy, drive, self-esteem, high power and is the main \tl{śakti} mantra.
-The Lakṣmī \tl{bīja} mantra \tl{śrīṃ} represents abundance, wealth, well-being
+The Lakṣmī \tl{bīja} mantra \tl{śrīm̐} represents abundance, wealth, well-being
 and prosperity, as well as fructification of all efforts.
 
-The second \tl{vāgbhāva} \tl{bīja} mantra \tl{aiṃ} re-iterates the need to
+The second \tl{vāgbhāva} \tl{bīja} mantra \tl{aim̐} re-iterates the need to
 obtain all the knowledge we need to succeed in all our tasks and become
-accomplished. The second Lakṣmī \tl{bīja} mantra \tl{śrīṃ} indicates the desire
+accomplished. The second Lakṣmī \tl{bīja} mantra \tl{śrīm̐} indicates the desire
 for fruition of all our efforts.
 
 The word ‘\tl{āpaduddhāraṇāya}’ signifies the one who rescues us from all
 dangers and miserable conditions.
 
-The \tl{bīja} mantra \tl{hrāṃ} pulls us away from karmic bonds and infuses
-spirituality into our mind and intellect. The \tl{hrīṃ} \tl{bīja} mantra
+The \tl{bīja} mantra \tl{hrām̐} pulls us away from karmic bonds and infuses
+spirituality into our mind and intellect. The \tl{hrīm̐} \tl{bīja} mantra
 represents the power of Destruction and applied to the individual self, it is
 the destruction of our inner karmic bonds represented by \tl{antaḥkaraṇa}
 (mind, ego and the intellect) that bind the consciousness to the physical,
 astral and causal bodies.
 
-The form shifting \tl{kinnara bīja} mantra \tl{hrūṃ}, brings complete
+The form shifting \tl{kinnara bīja} mantra \tl{hrūm̐}, brings complete
 transformation in our spiritual outlook and leads us towards self-realization.
 In this context Lord Bhairava is aided by the Divine Mother Bhairavi, who wields
 the power of Destruction and transformation and is the Destroyer of
@@ -1296,7 +1296,7 @@ represent Lord Śiva Himself as the chief Mahābhairava.
 
 The \tl{namaḥ bīja} mantra is for offering salutations to the deity and
 indicating our complete surrender and request to the deity to take charge of
-our destiny. The \tl{bīja} mantras \tl{śrīṃ}, \tl{hrīṃ} and \tl{aiṃ} are for
+our destiny. The \tl{bīja} mantras \tl{śrīm̐}, \tl{hrīm̐} and \tl{aim̐} are for
 encasing the mantra for added protection and easier fruition. This process of
 reversing the mantras at the end occurring earlier in the mantra, is called
 \tl{sampuṭīkaraṇa}.
@@ -1346,7 +1346,7 @@ everlasting happiness, comfort, joy and peace.
 \end{shloka}
 
 Salutations to the Divine Father, who is the teacher and guru of the entire
-Creation and who is present in the form of the praṇava mantra \tl{oṃ}.
+Creation and who is present in the form of the praṇava mantra \tl{om̐}.
 Salutations to the great lord, who is omnipresent in the meaning of all
 the letters of the alphabet, including the alphabet and all the words and sound
 frequencies. Salutations to Him, who is the Creator and the doer of all major
@@ -1413,7 +1413,7 @@ self-sufficient and ever content in His disposition.
   namo mahā-bhairavāya śrī-bhairava namo namaḥ (33)
 \end{shloka}
 
-Salutations to the Divine Lord who is in the form of the \tl{śrī bīja śrīṃ},
+Salutations to the Divine Lord who is in the form of the \tl{śrī bīja śrīm̐},
 indicating prosperity, abundance and fertility. He is the fulfiller of all
 desires and wishes of His sincere devotees. Salutations to the One who is none
 other than Brahman, manifested as Lord Mahā Bhairava and as the Preserver and
