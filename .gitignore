@@ -226,7 +226,7 @@ pythontex-files-*/
 *.xmpi
 
 # xindy
-*.xdy
+# *.xdy
 
 # xypic precompiled matrices and outlines
 *.xyc
@@ -274,5 +274,3 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
-
-.vscode/*
